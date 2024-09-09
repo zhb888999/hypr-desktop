@@ -18,7 +18,7 @@ sudo pacman -S \
     xorg-xwayland qt5-wayland qt6-wayland glfw-wayland \
     hyprland hyprpaper hyprlock \
     waybar kitty wofi playerctl mako \
-    fcitx5 fcitx5-configtool fcitx5-chiness-addons fcitx5-material-color rime-pinyin-zhwiki \
+    fcitx5 fcitx5-configtool fcitx5-chiness-addons fcitx5-material-color rime-pinyin-zhwiki
 
 echo "GTK_IM_MODULE=fcitx" >> /etc/environment
 echo "QT_IM_MODULE=fcitx" >> /etc/environment
