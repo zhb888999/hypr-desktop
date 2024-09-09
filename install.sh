@@ -20,6 +20,8 @@ sudo pacman -S \
     waybar kitty wofi playerctl mako \
     fcitx5 fcitx5-configtool fcitx5-chiness-addons fcitx5-material-color rime-pinyin-zhwiki
 
+cp -r wallpaper ~/Pictures
+
 echo "GTK_IM_MODULE=fcitx" >> /etc/environment
 echo "QT_IM_MODULE=fcitx" >> /etc/environment
 echo "XMODIFIERS=@im=fcitx" >> /etc/enviroment
