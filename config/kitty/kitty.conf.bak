@@ -1,0 +1,6 @@
+font_size 13.0
+background_opacity 0.7
+# BEGIN_KITTY_THEME
+# Alucard
+include current-theme.conf
+# END_KITTY_THEME
